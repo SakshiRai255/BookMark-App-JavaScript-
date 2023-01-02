@@ -1,5 +1,6 @@
 ## This is a simple BookMark App 
 
-### HTML
-### CSS
-### JavaScript
+### Stack Used
+- HTML
+- CSS
+- JavaScript

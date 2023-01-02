@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookMark - App</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMark App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main-div">
-        <div class="container">
-            <input type="text">
-        </div>
+      <div class="container">
+        <form class="BookmarkForm">
+          <div class="form-controller">
+            <label for="siteName">Website Name</label>
+            <input type="text" id="siteName" />
+          </div>
+          <div class="form-controller">
+            <label for="siteURL">Website URL</label>
+            <input type="text" id="siteURL" />
+          </div>
+          <button class="btn">Save</button>
+        </form>
+      </div>
     </div>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
